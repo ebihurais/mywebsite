@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>エビフライの自己紹介</title>
+  <style>
+    /* 全体の基本設定 */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f4f7f9; /* 背景色（薄いブルーグレー） */
+      color: #2c3e50;            /* 基本の文字色（濃い紺グレー） */
+      font-family: sans-serif;
+      line-height: 1.7;
+    }
+
+    /* 中央寄せと画面幅に合わせた余白設定（横はみ出し防止） */
+    .container {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* ヘッダーとページ内メニュー */
+    header {
+      background-color: #ffffff;
+      border-top: 5px solid #2980b9;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      color: #1a252f;
+      margin: 0 0 12px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    nav a {
+      color: #2980b9;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 4px 8px;
+      border-radius: 4px;
+      background-color: #eef5f9;
+    }
+
+    nav a:hover {
+      background-color: #dcebf5;
+    }
+
+    /* 各セクションのスタイル */
+    section {
+      background-color: #ffffff;
+      border-radius: 8px;
+      padding: 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      color: #2980b9;
+      margin-top: 0;
+      margin-bottom: 14px;
+      border-bottom: 2px solid #eef5f9;
+      padding-bottom: 8px;
+    }
+
+    p {
+      margin: 0 0 12px 0;
+      overflow-wrap: break-word;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* フッター */
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666666;
+      margin-top: 32px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>エビフライの自己紹介サイト</h1>
+      <!-- ページ内メニュー -->
+      <nav>
+        <ul>
+          <li><a href="#about">自己紹介</a></li>
+          <li><a href="#learning">今学んでいること</a></li>
+          <li><a href="#future">これからやってみたいこと</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- 1. 自己紹介セクション -->
+      <section id="about">
+        <h2>自己紹介</h2>
+        <p>はじめまして、大学1年生のエビフライです。これから情報について詳しく学びたいと思っています。</p>
+        <p>高校生の頃にHTML、CSSのプログラミングを勉強して少しWebサイトを書けるようにしました。当初はエラーが大量に出てきてしまいその処理を行うのに苦戦しましたが、エラーで指定された行を注意深く確認したりエラーメッセージを少しずつ読めるようにしてエラーを自分で治せるようになりました。</p>
+      </section>
+
+      <!-- 2. 今学んでいることセクション -->
+      <section id="learning">
+        <h2>今学んでいること</h2>
+        <p>大学で学びながら、情報について学んでいます。</p>
+      </section>
+
+      <!-- 3. これからやってみたいことセクション -->
+      <section id="future">
+        <h2>これからやってみたいこと</h2>
+        <p>3DプリンターやArduino、Raspberry Piを使って電子工作をしたり、プログラミングをしてゲームを作りたいです。</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; エビフライ</p>
+    </footer>
+  </div>
+
+</body>
+</html>
